@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<style type="text/css">
+#tooltip {
+background: green;
+color: white;
+position: absolute;
+max-width: 150px;
+padding: 5px;
+border: 1px solid #a2844a;
+font-size: 12px;
+ box-shadow: 10px 10px 5px #888888;
+}
+</style>
+
+<title></title>
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
+	<script type="text/javascript" src="toolTip.js"></script>
+
+</head>
+<body>
+<a href="#" title="here is thr toolTip">see the toolTip</a>
+
+<script type="text/javascript">
+$('a').tooltip();
+</script>
+</body>
+
+
+</html>
